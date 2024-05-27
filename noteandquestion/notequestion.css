@@ -1,0 +1,18 @@
+body{
+    
+    border: 50px solid;
+    border-color:#85b78a ;
+    padding: 50px;
+    box-shadow: 20px 20px 20px 10px #abc3ae;
+    background-color: aliceblue;
+ }
+
+li{
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+    
+ }
+ a{
+     text-decoration: none;
+ }

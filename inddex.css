@@ -1,0 +1,408 @@
+/* first page css */
+
+
+.help_section1 {
+    background-color: #0818a8;
+    padding: 50px 0;
+    height: 400px;
+  }
+  
+  .container1 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-61 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .detail-box1 {
+    padding-right: 30px;
+  }
+  
+  .heading_container1 h1 {
+    font-size: 25px;
+    border: solid;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: white;
+    color: black;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .detail-box1 p {
+    font-size: 16px;
+    color: #f5f4fc;
+    margin-bottom: 20px;
+  }
+  
+  .img-box1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .img-box1 img {
+    width: 100%;
+    border-radius: 20px;
+    max-width: fit-content; /* Adjust the maximum width of the image */
+    height: 400px;
+  }
+
+  /* navvar */
+  header {
+    background-color: #250f5a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    color:rgb(224, 232, 5);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color:green;
+  }
+
+
+  /* second page css */
+  
+  .about_section2 {
+    background-color: #1a55f7;
+    padding: 50px 0;
+  }
+  
+  .container2 {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-62 {
+    width: 50%;
+  }
+  
+  .detail-box2 {
+    background-color: #faf4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .heading_container2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #130303;
+  }
+  
+  .lax {
+    font-size: 24px;
+    height: 270px; 
+    color: #180404;
+  }
+  
+  .img-box2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  
+  .img-box2 img {
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    height: 400px;
+  }
+
+  /* 3rd page css */  
+
+  
+  .help_section3 {
+    background-color: #1629d3;
+    padding: 50px 0;
+  }
+  
+  .container3 {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-63 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  
+  .detail-box3 {
+    padding-right: 30px;
+  }
+  
+  .heading_container3 h2 {
+    font-size: 32px;
+    color: #e5e9f1;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }  
+  .detail-box3 p li{
+    font-size: 16px;
+    color: #f5f4fc;
+    margin-bottom: 20px;
+  }
+  
+  .img-box3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .img-box3 img {
+    width: 500px;
+    max-width: 500px; /* Adjust the maximum width of the image */
+    height: 500px;
+  }
+
+  /* fourth page css */
+
+  .wedo_section4 {
+    background-color:rgb(250, 245, 245);
+    padding: 50px;
+
+  }
+  
+  .heading_container4 {
+    text-align: center;
+    margin-bottom: 30px;
+  
+  }
+  
+  .heading_container4 h2 {
+    font-size: 32px;
+    color:blue;
+  }
+  
+  .heading_container4 p {
+    font-size: 16px;
+    color: black;
+    margin-top: 16x;
+  }
+  
+  .row4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box4 {
+    background-color:white;
+    border-radius: 50px;
+    height: 300px;
+    width: 250px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-basis: 200px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the spacing between items */
+  }
+  
+  .box4:last-child {
+    margin-right: 3px;
+  }
+  
+  .box4 .img-box4 {
+    width: 80px; /* Adjust the size of the circular image */
+    height: 80px; /* Adjust the size of the circular image */
+    margin-right: 20px; /* Adjust the spacing between the image and text */
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .box4 .img-box4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+  }
+
+.img4{
+    
+    height: 250px;
+    border: solid;
+    border-radius: 40px;
+    color: #f5f1f0;
+    width:280px;
+    background-color: #f7f3f2;
+}
+  
+  .detail-box4 {
+    flex: 1;
+  }
+  
+  .detail-box4 h5 {
+    font-size: 18px;
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .detail-box4 p {
+    padding: 2px;
+    font-size: 14px;
+    color: rgb(5, 0, 0);
+    margin-top: 0;
+  }
+  
+  .detail-box4 a {
+    border: solid;
+    width: fit-content;
+    font-size: 14px;
+    color: black;
+    background-color: blue;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+   
+  }
+  
+  .detail-box4 a:hover {
+    background-color: red;
+  }
+
+
+
+  /* 5th page css */
+
+  .client_section5 {
+    background-image: url(images/client-bg.jpg);
+    padding: 50px 0;
+  }
+  
+  .heading_container5 h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #f3e6e6;
+    margin-bottom: 30px;
+  }
+  
+  .web5 {
+    text-align: center;
+  }
+  
+  .code5 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item5 {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box5 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .client_id5 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-box5 {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .img-box5 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .client_detail5 {
+    margin-left: 15px;
+  }
+  
+  .client_detail5 h5 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .client_detail5 h6 {
+    font-size: 14px;
+    color: #3212eb;
+  }
+  
+  .client_text5 p {
+    font-size: 14px;
+    color: #130402;
+    padding: 5px;
+
+  }
+
+
+  /* footer */
+/* footer{
+  text-align: center;
+  border-radius: 100%;
+  background-color: #1629d3;
+} */
+ footer{
+  background-color: #0a1b89;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0;
+  padding: 25px 0;
+  color: #ffffff;
+  border-top: 1px solid #ebdb08;
+}
+/* 
+.footer_section p a {
+  color: inherit;
+}  */
